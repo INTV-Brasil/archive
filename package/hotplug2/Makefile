@@ -14,7 +14,8 @@ PKG_RELEASE:=4
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=http://downloads.openwrt.org/sources/
-PKG_MD5SUM:=7bab8ba67555a8400424f3c92ec67579
+# PKG_MD5SUM:=7bab8ba67555a8400424f3c92ec67579 - for some reason package of this version currently has a different md5sum, wherever we try to download it. All sources gives the hash below.
+PKG_MD5SUM:=9a8e64f89558998bb824525105cdbe6b
 
 include $(INCLUDE_DIR)/package.mk
 
