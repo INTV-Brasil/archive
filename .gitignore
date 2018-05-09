@@ -22,3 +22,8 @@
 *#
 .emacs.desktop*
 TAGS*~
+
+# jetbrains IDEs
+.idea
+CMakeLists.txt
+cmake-build-debug/
