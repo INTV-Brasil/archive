@@ -50,7 +50,7 @@ After compiling environment configurations you can build
 your OpenWRT image as usual, referenced in original README.
 
 ```
-git clone git@github.com:INTV-Brasil/archive.git -b attitude_adjustment_2018
+git clone https://github.com/INTV-Brasil/archive.git -b attitude_adjustment_2018
 cd archive
 ./scripts/feeds update -a
 ./scripts/feeds install -a
